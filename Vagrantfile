@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-VM_BOX = "chef/centos-6.5"
+VM_BOX = "bento/centos-6.7"
 VM_IP = "192.168.33.101"
 
 Vagrant.configure(2) do |config|
