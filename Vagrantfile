@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-VM_BOX = "bento/centos-6.7"
+VM_BOX = "http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.7_chef-provisionerless.box"
 VM_IP = "192.168.33.101"
 
 Vagrant.configure(2) do |config|
